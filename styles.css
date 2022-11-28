@@ -22,3 +22,9 @@ li a {
 body {
   background-color: rgb(220,255,220);
 }
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 100px;
+}
