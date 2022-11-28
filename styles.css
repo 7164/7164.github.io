@@ -20,8 +20,5 @@ li a {
 }
 
 body {
-  position: absolute;
-        top: 50%;
-        left: 50%;
   background-color: rgb(220,255,220);
 }
