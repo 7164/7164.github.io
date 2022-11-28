@@ -33,12 +33,7 @@ body {
   background: white;
   padding: 120px;
 }
-.center2 {
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 120px;
-}
+
 .background {
   background-image: url('images/amazone.jpg');
 <!--background-repeat: no-repeat;-->
