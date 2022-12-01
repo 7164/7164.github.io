@@ -43,7 +43,7 @@ body {
   max-width: 600px;
   margin: auto;
   background: white;
-  padding: 120px;
+  padding: 100px 20px 100px 20px;
 }
 img {
 	widht: 50%;
