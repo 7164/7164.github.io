@@ -45,7 +45,7 @@ body {
   background: white;
   padding: 100px 20px 100px 20px;
 }
-img {
+.imgsize {
 	widht: 50%;
 	margin: 2px,2px,2px,20px;
 	float: right;
