@@ -45,4 +45,8 @@ body {
   background: white;
   padding: 120px;
 }
-
+img {
+	widht: 50%;
+	margin: 2px,2px,2px,20px;
+	float: right;
+}
