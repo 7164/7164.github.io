@@ -12,12 +12,8 @@ li {
   color: #fff;
 	margin-right: 30px;
 }
-li.margin1 {
-	width: 27px;
-	height 20px;
-	float: left;
-	margin: 0px;
-}
+
+.margin1 {}
 
 li a {
   display: block;
