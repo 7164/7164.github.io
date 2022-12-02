@@ -2,7 +2,7 @@ ul {
 	max-height: 35px;
   list-style-type: none;
   margin: 0px;
-  padding: 0px 0px 0px 325px;
+  padding: 0px 0px 0px 0px;
   overflow: hidden;
   background-color: #228b22;
 }
@@ -10,6 +10,7 @@ ul {
 li {
   float: left;
   color: #fff;
+	margin-right: 30px;
 }
 li.margin1 {
 	width: 27px;
