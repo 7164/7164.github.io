@@ -24,6 +24,10 @@ li a {
   text-align: center;
   text-decoration: none;
 }
+div.scrollmenu a:hover {
+  background-color: rgb(160,176,169);
+}
+
 h1 {
   font: Tahoma, Geneva, sans-serif;
 	font-size: 50px;
