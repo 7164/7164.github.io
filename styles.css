@@ -33,13 +33,12 @@ h1 {
     text-shadow:
     /* Outline */
     -1px -1px 0 #209620,
-    1px -1px 0 #00ff00,
+    1px -1px 0 #000000,
     -1px 1px 0 #00ff00,
     1px 1px 0 #ffffff,  
-    -2px 0 0 #ffffff,
+    -2px 0 0 #ffff00,
     2px 0 0 #209620,
-    0 2px 0 #000000,
-    0 -2px 0 #ffffff; /* Terminate with a semi-colon */
+    0 -2px 0 #ffffff;
 }
 p {
   font-size: 20px
