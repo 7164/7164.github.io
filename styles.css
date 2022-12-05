@@ -13,7 +13,7 @@ li {
 	margin-right: 30px;
 }
 
-.margin1 {}
+.margin1 {} <!--afbeelding bij linkmenu-->
 
 li a {
   display: block;
@@ -30,8 +30,7 @@ h1 {
   font: Tahoma, Geneva, sans-serif;
 	font-size: 50px;
     color: black;
-    text-shadow:
-    /* Outline */
+    text-shadow: <!--outline-->
     -1px -1px 0 #209620,
     1px -1px 0 #000000,
     -1px 1px 0 #00ff00,
@@ -57,4 +56,5 @@ img.imgsize {
 	width: 50%;
 	margin: 2px,2px,2px,20px;
 	float: right;
+	<!--afbeeldingen met imgsize rechts met ruimte voor tekst-->
 }
