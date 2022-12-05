@@ -33,12 +33,12 @@ h1 {
     text-shadow:
     /* Outline */
     -1px -1px 0 #209620,
-    1px -1px 0 #000000,
+    1px -1px 0 #44aa11,
     -1px 1px 0 #00ff00,
-    1px 1px 0 #ffffff,  
-    -2px 0 0 #ffff00,
+    1px 1px 0 #eeffee,  
+    -2px 0 0 #aaff00,
     2px 0 0 #209620,
-    0 -2px 0 #ffffff;
+    0 -2px 0 #eeffee;
 }
 p {
   font-size: 20px
