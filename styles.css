@@ -60,15 +60,15 @@ img.imgsize {
 	float: right;
 }
 img.decoration {
-	width: 20%;
-	height: 20%;
+	width: 15%;
+	height: 15%;
 	float: right;
 	margin: 0px;
 	z-index: -1;
 }
 img.decoration2 {
-	width: 10%;
-	height: 10%;
+	width: 15%;
+	height: 15%;
 	float: left;
 	margin: 0px;
 	z-index: -1;
