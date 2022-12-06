@@ -52,6 +52,7 @@ body {
   margin: auto;
   background: white;
   padding: 100px 20px 100px 20px;
+	position: absolute;
 }
 img.imgsize {
 	width: 50%;
@@ -59,8 +60,9 @@ img.imgsize {
 	float: right;
 }
 img.decoration {
-	width: 70%;
-	height: 70%;
+	width: 20%;
+	height: 20%;
 	float: right;
 	margin-bottom: 15px;
+	position: relative;
 }
