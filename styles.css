@@ -52,7 +52,7 @@ body {
   margin: auto;
   background: white;
   padding: 100px 20px 100px 20px;
-	position: absolute;
+	position: center;
 }
 img.imgsize {
 	width: 50%;
