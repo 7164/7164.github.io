@@ -58,3 +58,9 @@ img.imgsize {
 	margin: 2px,2px,2px,20px;
 	float: right;
 }
+img.decoration {
+	width: 70%;
+	height: 70%;
+	float: right;
+	margin-bottom: 15px;
+}
