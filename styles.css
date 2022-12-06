@@ -66,3 +66,9 @@ img.decoration {
 	margin: 0px;
 	z-index: -1;
 }
+img.decoration2 {
+	width: 10%;
+	height: 10%;
+	float: left;
+	margin: 0px;
+	z-index: -1;
