@@ -59,11 +59,11 @@ img.imgsize {
 	float: right;
 }
 img.decoration {
-	width: 15%;
-	height: 15%;
+	width: 108px;
+	height: 192px;
 	position: fixed;
 	bottom: -3px;
-	right: 0px;
+	right: -50px;
 	margin: 0px;
 	z-index: -1;
 }
