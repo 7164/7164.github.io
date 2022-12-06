@@ -67,8 +67,10 @@ img.decoration {
 	z-index: -1;
 }
 img.decoration2 {
+	src="images/bird.png"
 	width: 15%;
 	height: 15%;
 	float: left;
 	margin: 0px;
 	z-index: -1;
+}
