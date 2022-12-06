@@ -64,6 +64,7 @@ img.decoration {
 	height: 15%;
 	float: right;
 	margin: 0px;
+	position: fixed;
 	z-index: -1;
 }
 img.decoration2 {
