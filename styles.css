@@ -70,13 +70,13 @@ img.decoration2 {
 	width: 15%;
 	height: 15%;
 	float: left;
-	margin: 1px;
+	margin: 1px 1px 5px 1px;
 	z-index: -1;
 }
 img.decoration2 {
 	width: 15%;
 	height: 15%;
 	float: right;
-	margin: 1px;
+	margin: 1px 1px 5px 1px;
 	z-index: -1;
 }
