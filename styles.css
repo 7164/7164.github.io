@@ -76,7 +76,7 @@ img.decoration2 {
 img.decoration3 {
 	width: 15%;
 	height: 15%;
-	right: -1px;
+	right: -10px;
 	top: 5px;
 	margin: 1px 1px 5px 1px;
 	z-index: -1;
