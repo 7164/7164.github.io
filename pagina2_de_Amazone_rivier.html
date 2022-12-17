@@ -21,7 +21,7 @@
 <h1>
 <em>Amazone rivier</em>
 </h1>
-<img class="imgsize" src="images/rivier.jpg" alt="amazone rivier"/>
+<img class="imgsize" src="images/rivier.jpg" id="imgClickAndChange" onclick="changeImage(1) alt="amazone rivier"/>
 <p>
 	De Amazone is ook een rivier, hij ontspringt in Cailloma in Peru. Hij stroomt van Iquitos (zo'n 190 kilometer van de Grote Oceaan) door 5 landen heen. De Amazone rivier is de op &#233;&#233;n na grootste rivier, alleen de Nijl is groter. Op zijn hoogtepunt is de Amazone 40 kilometer breed. Het gelige water van de Amazone is nog 320 kilometer uit de kust te zien. De rivier is zo'n 6530 km lang.
 </p>
@@ -32,5 +32,14 @@
 	De Amazone rivier heeft heel erg veel zijrivieren, zo`n 1100! Van de 1100 zijrivieren zijn er ongeveer 100 bevaarbaar, en 12 zijrivieren zijn langer dan 1500 kilometer!
 </p>
 </div>
+<script>
+function changeImage() {
+    if (document.getElementById("imgClickAndChange").src = "images/rivier.jpg"){
+        document.getElementById("imgClickAndChange").src = "images/river2.jpg";
+    } else {
+        document.getElementById("imgClickAndChange").src = "images/rivier.jpg";
+    }
+}
+</script>
 </body>
 </html>
