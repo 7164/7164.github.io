@@ -135,7 +135,7 @@ De Amazone is bekend door zijn vele dieren en planten. Er worden wel elke dag ni
   <span class="close">&times;</span>
 
   <!-- Modal Content (The Image) -->
-  <img class="modal-content" class="img01">
+  <img class="modal-content" id="img01">
 
 </div>
 <td>Tamandua tetradactyla</td>
@@ -151,7 +151,7 @@ De Amazone is bekend door zijn vele dieren en planten. Er worden wel elke dag ni
   <span class="close">&times;</span>
 
   <!-- Modal Content (The Image) -->
-  <img class="modal-content" class="img01">
+  <img class="modal-content" id="img01">
 
 </div>
 <td>Ramphastidae</td>
@@ -166,7 +166,7 @@ var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById("myImg");
-var modalImg = document.getElementByclass("img01");
+var modalImg = document.getElementById("img01");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
