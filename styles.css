@@ -32,13 +32,14 @@ h1 {
     color: black;
     text-shadow:
     /* Outline */
-    -1px -1px 0 #20dd20,
-    1px -1px 0 #44cc22,
-    -1px 1px 0 #00ff00,
-    1px 1px 0 #eeffee,  
-    -2px 0 0 #aaff00,
-    2px 0 0 #20dd20,
-    0 -2px 0 #eeffee;
+    -1px -1px 0 #eeffee,
+    1px -1px 0 #20dd20,
+    -1px 1px 0 #49bf49,
+    1px 1px 0 #6affaa,
+    -2px 0 0 #097d3a,
+    2px 0 0 #0a7d3b,
+    0 1px 0 #20dd20,
+    0 -2px 0 #0a7d3b
 }
 p {
   font-size: 20px
