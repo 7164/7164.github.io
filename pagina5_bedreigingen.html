@@ -21,6 +21,12 @@
 <h1>
 <em>Bedreigingen</em>
 </h1>
+	<img scr="gold.jpg" alt="goldmining" class="myImages imgsize" id="myImg">
+	<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 <p>
 De Amazone regenwoud wordt bedreigd, het wordt gekapt voor veeteelt, landbouw en soja- palmolie plantages, er wordt ook gekapt voor hout en papier. Als er een stuk van het woud wordt gekapt, dan kan er later moeilijk nieuwe planten en bomen groeien omdat de kringloop wordt verstoord, de bodem is dan niet meer vruchtbaar. In de afgelopen vijftig jaar is ongeveer twintig procent van het Amazonewoud gekapt.
 </p>
@@ -32,5 +38,34 @@ De Amazone is belangrijk omdat er veel dieren en planten wonen. Veel daarvan wor
 </p>
 <iframe width="75%" height="75%" src="https://www.youtube.com/embed/b4eLTYUcj7k?start=132&end=199;autoplay=1&loop&mute=1" frameborder="0" allowfullscreen></iframe>
 </div>
+	
+	<script>
+	// create references to the modal...
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    console.log(evt);
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+	</script>
 </body>
 </html>
