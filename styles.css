@@ -50,8 +50,6 @@ body {
 }
 .center1 {
   max-width: 650px;
-	 position: sticky;
-  top: 0;
   margin: auto;
   background: white;
   padding: 100px 20px 100px 20px;
